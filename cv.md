@@ -6,3 +6,8 @@ My passion is teaching. I love to sit for hours on end reading new information. 
     std::cout<<"Hello, world!\n";```</br>
     ```
     console.log('Hi!');```
+  
+### Education 
+1. NTU "Dniprovska Politechnika"
+2. DevOps CrashCourse from SoftServe
+
