@@ -10,4 +10,8 @@ My passion is teaching. I love to sit for hours on end reading new information. 
 ### Education 
 1. NTU "Dniprovska Politechnika"
 2. DevOps CrashCourse from SoftServe
+### Language
+1. English (B1)
+2. Ukrainian (native)
+3. Japanese (beginner)
 
