@@ -132,3 +132,39 @@ margin: 15px;
     width: 28px;
     height: 38.98px;
 }
+/*get_notified*/
+.get_notified{
+    height: 100vh;
+    text-align: center;
+    background-color: #cccccc;
+}
+.get_notified__header{
+    color: #666666;
+    font-weight: 400;
+    font-size: 27px;
+    font: inherit;
+}
+.get_notified__submit-btn{
+    margin-left: 0;
+    padding: 0;
+    border: 2px solid #CD6326;
+    font: inherit;
+    color: inherit;
+    background: #CD6326;
+
+}
+.get_notified__in{
+    font: inherit;
+    margin-right: 0;
+}
+/*footer*/
+.footer{
+    background-color: #181617;
+    display: flex;
+}
+.footer-nav{
+display: flex;
+}
+.footer-nav-social{
+display: flex;
+}
