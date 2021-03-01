@@ -214,24 +214,22 @@ margin: 15px;
 }
 /*footer*/
 .footer{
-    background-color: red;
+    background-color: #181617;
     width: 100%;
     display: flex;
+    background-image: url("assets/footer-bg.svg");
 }
 .footer-nav{
     height: 50vh;
     width: 100%;
-    background-color: rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .footer-nav-social{
     display: flex;
-    
 }
-.logo-s{
-    
+.logo-s{ 
     display: flex;
     align-items: center;
 }
@@ -241,6 +239,8 @@ margin: 15px;
     margin: 0 0 0 15.73px
 }
 .nav-link-f{
+    font-size: 27px;
+    font-weight: 400;
     margin: 0 16px 0 16px ;
 }
 .icon_media{
@@ -252,6 +252,8 @@ margin: 15px;
     margin: 0 16px 0 16px ;
     background: #F7F7F7;
     border-radius: 50%;
-
 }
-    
+.i,.i2,.i3{
+    position: absolute;
+}
+
