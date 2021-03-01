@@ -1,9 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color:white;
     font-size: 23px;
+}
+li{
+    display: inline;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -39,6 +47,7 @@ transition: 0.3s;
     font-weight: 400;
 }
 .logo-n{
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     padding: 15.73px;
 }
@@ -65,14 +74,19 @@ transition: 0.3s;
     align-items: center; 
 }
 .header__survival{
-font-size: 48px;
-color:  #CD6326;
-font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+    font-style: normal;
+    font-size: 48px;
+    color:  #CD6326;
+    font-weight: 400;
 }
 .text__survival{
-
-font-size: 18px;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: normal;
     margin-bottom: 49px;
 }
 .btn-donate{
@@ -200,42 +214,44 @@ margin: 15px;
 }
 /*footer*/
 .footer{
-    background-color: #181617;
+    background-color: red;
+    width: 100%;
     display: flex;
 }
 .footer-nav{
-display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-nav-social{
-display: flex;
+    display: flex;
+    
 }
 .logo-s{
+    
     display: flex;
     align-items: center;
 }
 .logo-n-s{
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    margin-left: 15px;
+    margin: 0 0 0 15.73px
 }
-.nav-bar-f{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
+.nav-link-f{
+    margin: 0 16px 0 16px ;
 }
 .icon_media{
     display: flex;
-    width: 40px;
-    height: 40px;
-    background-color: #F7F7F7;
-    border-radius: 20px;
     align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 16px 0 16px ;
+    background: #F7F7F7;
+    border-radius: 50%;
+
 }
-.nav-link-f{
-    font-weight: 400;
-    padding:2px 10px 2px 10px;
-    margin:0 15px 0 15px;
-    cursor:pointer;
-}
+    
