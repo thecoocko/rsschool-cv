@@ -12,12 +12,12 @@ a{
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 100vh;
     margin: 0 auto;
 }
 /*navigation*/
 .nav-link{
     padding:2px 10px 2px 10px;  
+    cursor:pointer;
 }
 .sign-in{
     border: 2px solid #CD6326;
@@ -49,7 +49,7 @@ transition: 0.3s;
     background-color: #02160b;
     background-image: url("../wildlife/assets/Rectangle.png") ;
     background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 .nav-bar{
     display: flex;
@@ -76,8 +76,10 @@ font-size: 18px;
     margin-bottom: 49px;
 }
 .btn-donate{
+    border-radius: 5px;
     background: #CD6326;
     padding:16px 42px 17px 42px;
+    cursor: pointer;
 }
 .btn-donate:hover{
     background: #E39128;
@@ -134,28 +136,67 @@ margin: 15px;
 }
 /*get_notified*/
 .get_notified{
-    height: 100vh;
+    
+   height: 50vh;
     text-align: center;
     background-color: #cccccc;
 }
 .get_notified__header{
-    color: #666666;
+    color: #333333;
     font-weight: 400;
     font-size: 27px;
     font: inherit;
+    margin-bottom: 59px;
 }
-.get_notified__submit-btn{
+.get_notified__su{
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
     margin-left: 0;
-    padding: 0;
+    padding-left: 0;
     border: 2px solid #CD6326;
     font: inherit;
     color: inherit;
     background: #CD6326;
-
+    height: 120px;
+    height:60px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+.get_notified__su:hover{
+    border:2px solid #E39128;
+    background: #E39128;
+    transition: 0.3s;
+}
+.get_notified__su:active{
+    border:2px solid #8F5613;
+    background: #8F5613;
+    transition: 0.3s;
 }
 .get_notified__in{
+    padding-right: 15px;
+    width: 510px;
+    padding-left: 15px;
+   height: 60px;
     font: inherit;
     margin-right: 0;
+    background-color:#cccccc ;
+    border: 1px solid black;
+}
+.get_notified__su
+.get_notified__su:active, 
+.get_notified__su:focus {
+    outline: none;
+    cursor:pointer;
+}
+.get_notified__in
+.get_notified__in:active, 
+.get_notified__in:focus{
+    outline: none;
+}
+.get_notified__form{
+    padding: 0;
 }
 /*footer*/
 .footer{
@@ -167,4 +208,34 @@ display: flex;
 }
 .footer-nav-social{
 display: flex;
+}
+.logo-s{
+    display: flex;
+    align-items: center;
+}
+.logo-n-s{
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.nav-bar-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.icon_media{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link-f{
+    font-weight: 400;
+    padding:2px 10px 2px 10px;
+    margin:0 15px 0 15px;
+    cursor:pointer;
 }
